@@ -1,7 +1,5 @@
-import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import numpy as np
 from scipy.stats import skew, kurtosis, probplot
 import plotly.express as px
 df = px.data.iris()
