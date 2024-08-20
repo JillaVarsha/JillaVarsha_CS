@@ -4,6 +4,8 @@ import seaborn as sns
 import numpy as np
 iris = px.data.iris()
 numerical_attributes = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']
+rows,columns=iris.shape
+print((rows,columns))
 for attribute in numerical_attributes:
     mean = iris[attribute].mean()
     std_dev = iris[attribute].std()
